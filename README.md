@@ -1,5 +1,5 @@
 <h2> About the project 📋</h2>
-<p> This repository is being created to the challenge of nave.rs. 👾</p>
+<p> This repository is being created to the challenge of nave.rs :rocket: </p>
 <hr>
 
 <h2> Others infos </h2>
