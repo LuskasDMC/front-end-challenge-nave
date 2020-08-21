@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/front-end-challenge-nave/static/js/main.3814c7cf.chunk.js",
+    "main.js.map": "/front-end-challenge-nave/static/js/main.3814c7cf.chunk.js.map",
+    "runtime-main.js": "/front-end-challenge-nave/static/js/runtime-main.bd40cebb.js",
+    "runtime-main.js.map": "/front-end-challenge-nave/static/js/runtime-main.bd40cebb.js.map",
+    "static/css/2.68c5c20f.chunk.css": "/front-end-challenge-nave/static/css/2.68c5c20f.chunk.css",
+    "static/js/2.a87eb6c1.chunk.js": "/front-end-challenge-nave/static/js/2.a87eb6c1.chunk.js",
+    "static/js/2.a87eb6c1.chunk.js.map": "/front-end-challenge-nave/static/js/2.a87eb6c1.chunk.js.map",
+    "index.html": "/front-end-challenge-nave/index.html",
+    "precache-manifest.93b851ee2c3c4e3f1dc21288c6667493.js": "/front-end-challenge-nave/precache-manifest.93b851ee2c3c4e3f1dc21288c6667493.js",
+    "service-worker.js": "/front-end-challenge-nave/service-worker.js",
+    "static/css/2.68c5c20f.chunk.css.map": "/front-end-challenge-nave/static/css/2.68c5c20f.chunk.css.map",
+    "static/js/2.a87eb6c1.chunk.js.LICENSE.txt": "/front-end-challenge-nave/static/js/2.a87eb6c1.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/front-end-challenge-nave/static/media/fa-solid-900.ee09ad75.woff",
+    "static/media/logo.svg": "/front-end-challenge-nave/static/media/logo.5a076570.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd40cebb.js",
+    "static/css/2.68c5c20f.chunk.css",
+    "static/js/2.a87eb6c1.chunk.js",
+    "static/js/main.3814c7cf.chunk.js"
+  ]
+}
