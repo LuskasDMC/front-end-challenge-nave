@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router, Switch } from 'react-router-dom'
+import { createBrowserHistory } from 'history'
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+import AuthContext from './contexts/AuthContext'
+import Routes from './routes'
+import GlobalStyles from './styles/globalStyles'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthContext>
+        <Router history={createBrowserHistory()}>
+          <Switch>
+            <Routes/>
+          </Switch>
+        </Router>
+      <GlobalStyles/>
+    </AuthContext>
   );
 }
 
