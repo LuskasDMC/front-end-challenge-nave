@@ -89,4 +89,8 @@ export const Label = styled.div`
 `
 
 export const WrapperEditDelete = styled.div `
+    bottom: 15px;
+    left: 30px;
+    position: absolute;
+    
 `
