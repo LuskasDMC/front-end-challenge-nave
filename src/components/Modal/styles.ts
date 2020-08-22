@@ -32,7 +32,7 @@ export const Modal = styled.div`
     background:var(--primary);
     animation: ${zoomIn} .7s forwards ease-in-out;
     position:relative;
-    overflow-y:scroll;
+    overflow:hidden;
     flex-flow: row wrap;
     > div {
         flex: 1 0 300px;
@@ -52,6 +52,10 @@ export const Modal = styled.div`
         :hover {
             color:black;
         }
+    }
+
+    @media (max-width:800px){
+        overflow-y:scroll;
     }
 
 `
